@@ -12,8 +12,11 @@
     tools:context="aakanshaparmar.androiduploadimagetodb.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <TextView
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Take Picture"
+        android:id="@+id/cameraButton"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
